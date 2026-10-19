@@ -3,7 +3,7 @@ import { Pool } from "pg";
 import fs from "node:fs";
 import path from "node:path";
 
-const caPath = path.join(process.cwd(), "ca (1).pem");
+const caPath = path.join(process.cwd(), "ca.pem");
 const ca = fs.readFileSync(caPath, "utf8");
 
 export const pool = new Pool({
