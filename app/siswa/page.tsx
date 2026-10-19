@@ -105,7 +105,7 @@ export default function SiswaPage() {
         </section>
 
         <footer className="pb-3 text-center text-xs text-slate-400">
-          SiswaHub · Sistem Informasi Data Siswa
+          SiswaTarunaBahkti · Sistem Informasi Data Siswa
         </footer>
       </div>
     </main>
